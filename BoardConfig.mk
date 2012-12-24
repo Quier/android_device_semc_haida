@@ -1,6 +1,9 @@
 -include device/semc/mogami-common/BoardConfigCommon.mk
 -include vendor/semc/haida/BoardConfigVendor.mk
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/haida/config
+
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
 TARGET_KERNEL_CONFIG := cyanogen_haida_defconfig
 #TARGET_PREBUILT_KERNEL := device/semc/haida/prebuilt/kernel
